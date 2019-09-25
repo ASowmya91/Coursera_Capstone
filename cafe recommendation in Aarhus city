@@ -3,4 +3,8 @@ Introduction/Business Problem :
 I would like to build a recommender system that helps the user find a best cafe in aarhus city.
 The user needs to ´get a cafe that is nearer to his place ,has best rating ,has parking availability and a trending venue.
  
- 
+ In the lab, first step is to convert addresses into their equivalent latitude and longitude values.
+ And then to use the Foursquare API to explore venues in Aarhus City.
+ We use the explore function to get the most common venue categories in Aarhus and search  function to get cafes 500m near to the address.
+ We then explore trending venues near the address and find rating for all cafes to find the best one near to the address.
+ Finally, we will use the Folium library to visualize the cafes in Aarhus City 500 m around the address highlighting the best one.
