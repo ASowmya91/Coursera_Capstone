@@ -1,3 +1,5 @@
 Data Section :
 
 The data required in this project is collected from foursquare location database .
+I have given address of the user to foursquare database inorder get venues 500m near to the place.
+I have sorted the venues in atable and then extracted cafes around that address in 500m range.
