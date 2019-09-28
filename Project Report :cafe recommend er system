@@ -3,12 +3,6 @@ Introduction/Business Problem :
 I would like to build a recommender system that helps the user find a best cafe in aarhus city.
 The user needs to ´get a cafe that is nearer to his place ,has best rating ,has parking availability and a trending venue.
  
- In the lab, first step is to convert addresses into their equivalent latitude and longitude values.
- And then to use the Foursquare API to explore venues in Aarhus City.
- We use the explore function to get the most common venue categories in Aarhus and search  function to get cafes 500m near to the address.
- We then explore trending venues near the address and find rating for all cafes to find the best one near to the address.
- Finally, we will use the Folium library to visualize the cafes in Aarhus City 500 m around the address highlighting the best one.
- 
 Data Section :
 
 The data required in this project is collected from foursquare location database .
@@ -17,4 +11,16 @@ I have sorted the venues in atable and then extracted cafes around that address 
 
 Methodology :
 
-
+In the lab, first step is to convert addresses into their equivalent latitude and longitude values.
+ And then to use the Foursquare API to explore venues in Aarhus City.
+ We use the explore function to get the most common venue categories in Aarhus and search  function to get cafes 500m near to the address.
+ We then explore trending venues near the address and find rating for all cafes to find the best one near to the address.
+ I have used k-means clusturing algorithm to cluser cafes around to three groups based on distance and rating.
+ Finally, we will use the Folium library to visualize the cafes in Aarhus City 500 m around the address highlighting the best one.
+ 
+ Result :
+ This recommender system finally recommends a cafe that is nearer, has high rating and a trending one to the user.
+ 
+ Conclusion :
+ This system has given a cafe that is nearer to the place of the user but it would get even better response by the system if rating is also given for the venues.
+ 
