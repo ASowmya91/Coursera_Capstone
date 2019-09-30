@@ -1,5 +1,18 @@
-Data Section :
+Data Section:
 
-The data required in this project is collected from foursquare location database .
-I have given address of the user to foursquare database inorder get venues 500m near to the place.
-I have sorted the venues in atable and then extracted cafes around that address in 500m range.
+The data required in this project is collected from foursquare location API.
+The system as input takes address of the user and gives it to foursquare API in order get venues that are 500m near to the place.
+The venues are sorted in a table and then cafes around that address in 500m range are extracted.
+The system uses different functions like explore,search to get requireddata from Four square API.
+This system used K¨Means clustering algorithm to cluster cafes around 500 m based on rating,distance and parking facilities.
+
+Methodology :
+
+In the lab, the first step is to convert addresses into their equivalent latitude and longitude values.
+Moreover, then to use the Foursquare API to explore venues in Aarhus City.
+We use the explore function to get the most common venue categories  in Aarhus and search function to get cafes 500m near to the address.
+We then explore trending venues near the address and find rating for  all cafes to find the best one near to the address.
+I have used k-means clustering algorithm to cluster cafes around to  three groups based on distance and rating.
+Finally, we will use the Folium library to visualize the cafes in Aarhus City 500 m around the address highlighting the best one.
+Coding is done in Python using IBM Watson Studio.
+
