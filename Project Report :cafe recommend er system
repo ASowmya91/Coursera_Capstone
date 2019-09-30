@@ -2,12 +2,21 @@ Introduction/Business Problem :
 
 I would like to build a recommender system that helps the user find a best cafe in aarhus city.
 The user needs to ´get a cafe that is nearer to his place ,has best rating ,has parking availability and a trending venue.
+I have choosen Aarhus City as I live here.
+It sounds interesting for me to build a system and check if the system returns my favourite cafe in return.
+Aarhus City - a unique shopping metropolis
+Aarhus is truly West Denmark's shopping metropolis and Jutland's capital.
+the city offers unique and diverse shopping experiences far beyond the usual. 
+Within walking distance you will find everything the heart desires from specialty shops,
+department stores, Denmark's largest city center, cafes, restaurants and much more…
  
 Data Section :
 
 The data required in this project is collected from foursquare location database .
 I have given address of the user to foursquare database inorder get venues 500m near to the place.
-I have sorted the venues in atable and then extracted cafes around that address in 500m range.
+I have sorted the venues in a table and then extracted cafes around that address in 500m range.
+I have used different functions like explore,search to get required data from Four square API.
+
 
 Methodology :
 
